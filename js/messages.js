@@ -9,6 +9,7 @@ var messages = {
     'pt-br': 'Português',
     'es': 'Español',
     'ru': 'Русский',
+    'hy': 'Հայերեն',
     'fa': 'فارسی',
     'zh-cn': '简体中文',
     'zh-tw': '繁體中文',
@@ -42,6 +43,7 @@ var messages = {
     'pt-br': 'Próximo',
     'es': 'Siguiente',
     'ru': 'Следующий',
+    'hy': 'Հաջորդը',
     'fa': 'مرحله بعدی',
     'zh-cn': '继续',
     'zh-tw': '繼續',
@@ -75,6 +77,7 @@ var messages = {
     'pt-br': 'Flexbox Froggy foi criado por',
     'es': 'Flexbox Froggy es una creación de',
     'ru': 'Игра Flexbox Froggy создана',
+    'hy': 'Flexbox Froggy խաղը ստեղծվել է',
     'fa': 'قورباغه فلکس باکس ساخته شده توسط',
     'zh-cn': 'Flexbox Froggy的作者是',
     'zh-tw': 'Flexbox Froggy的作者是',
@@ -108,6 +111,7 @@ var messages = {
     'pt-br': 'Nível',
     'es': 'Nivel',
     'ru': 'Уровень',
+    'hy': 'Մակարդակ',
     'fa': 'مرحله',
     'zh-cn': 'Level',
     'zh-tw': 'Level',
@@ -141,6 +145,7 @@ var messages = {
     'pt-br': 'de',
     'es': 'de',
     'ru': 'из',
+    'hy': '/',
     'fa': 'از',
     'zh-cn': '/',
     'zh-tw': '/',
@@ -174,6 +179,7 @@ var messages = {
     'pt-br': 'Flexbox Froggy - Um jogo para aprender CSS flexbox',
     'es': 'Flexbox Froggy - Un juego para aprender CSS flexbox',
     'ru': 'Flexbox Froggy - Игра для изучения CSS Flexbox',
+    'hy': 'Flexbox Froggy - Խաղ CSS Flexbox սովորելու համար',
     'fa': 'قورباغه فلکس باکس - یک بازی جذاب برای آموزش سی اس اس فلکس باکس',
     'zh-cn': 'Flexbox Froggy - 一个用来学CSS flexbox的游戏',
     'zh-tw': 'Flexbox Froggy - 一個用來學CSS flexbox的遊戲',
@@ -207,6 +213,7 @@ var messages = {
     'pt-br': 'Reinicializar',
     'es': 'Reiniciar',
     'ru': 'Сбросить',
+    'hy': 'Զրոյացնել',
     'fa': 'شروع مجدد',
     'zh-cn': '重置',
     'zh-tw': '重置',
@@ -240,6 +247,7 @@ var messages = {
     'pt-br': 'Você tem certeza que quer reinicializar o jogo?\n\nSeu progresso salvo será perdido e você voltará ao começo do jogo.',
     'es': 'Estás seguro, ¿Quieres reiniciar el juego?\n\nTu progreso se perderá y serás enviado al inicio del juego.',
     'ru': 'Вы действительно хотите сбросить игру?\n\nВаш прогресс будет потерян и вы вернетесь к началу игры.',
+    'hy': 'Դուք արդյո՞ք ուզում եք զրոյացնել խաղը:\n\nՁեր առաջընթացը կկորի և Դուք կվերադառնաք խաղի սկիզբ:',
     'fa': 'آیا از شروع مجدد بازی اطمینان دارید ?\n\nتمام مراحل ذخیره شده حذف خواهند شد.',
     'zh-cn': '你确定要重置游戏吗?\n\n你保存了的进度将会丢失，而且你会回到游戏的最开始。',
     'zh-tw': '你確定要重置遊戲嗎？\n\n你保存了的進度將會丟失，而且你會回到遊戲的最開始。',
@@ -265,6 +273,7 @@ var messages = {
   },
   gridGarden: {
     'en': 'Want to learn CSS grid? Play',
+    'hy': 'Ցանկանում եք սովորել CSS grid? Խաղացեք',
     'ro': 'Vrei să înveți CSS grid? Joacă',
     'nl': 'Wil je CSS grid leren? Speel',
     'ta': 'CSS Grid கற்றுக்கொள்ள விரும்புகிறீர்களா? விளையாடுவோம்',
@@ -277,6 +286,7 @@ var messages = {
   },
   labelLanguage: {
     'en': 'Language',
+    'hy': 'Լեզու',
     'es': 'Lengua',
     'lv': 'Valoda',
     'it': 'Lingua',
@@ -284,46 +294,54 @@ var messages = {
   },
   labelSettings: {
     'en': 'Settings',
+    'hy': 'Կարգավորումներ',
     'lv': 'Iestatījumi',
     'it': 'Impostazioni',
     'pl': 'Ustawienia'
   },
   labelDifficulty: {
     'en': 'Difficulty',
+    'hy': 'Բարդություն',
     'lv': 'Grūtības pakāpe',
     'it': 'Difficoltà',
     'pl': 'Poziom trudności'
   },
   labelColorblind: {
     'en': 'Colorblind Mode',
+    'hy': 'Անգույն Տարբերակ',
     'lv': 'Krāsu akluma režīms',
     'it': 'Modalità daltonici',
     'pl': 'Tryb dla daltonistów'
   },
   labelColorblindOff: {
     'en': 'Off',
+    'hy': 'Անջատած',
     'lv': 'Izslēgts',
     'pl': 'Wyłączony'
   },
   labelColorblindOn: {
     'en': 'On',
+    'hy': 'Միացված',
     'lv': 'Ieslēgts',
     'pl': 'Włączony'
   },
   labelDifficultyEasy: {
     'en': 'Beginner',
+    'hy': 'Սկսնակ',
     'lv': 'Viegls',
     'it': 'Principiante',
     'pl': 'Łatwy'
   },
   labelDifficultyMedium: {
     'en': 'Intermediate - No Directions',
+    'hy': 'Միջին - Առանց Ուղղորդումների',
     'lv': 'Vidēji grūts - Bez norādēm',
     'it': 'Intermedio - Nessuna istruzione',
     'pl': 'Średni - Brak wskazówek'
   },
   labelDifficultyHard: {
     'en': 'Expert - No Directions & Random Levels',
+    'hy': 'Փորձառու - Առանց Ուղղորդումների և Խառը Մակարդակներ',
     'lv': 'Ļoti grūts - Bez norādēm un līmeņi jauktā secībā',
     'it': 'Esperto - Nessuna istruzione e livelli in ordine casuale',
     'pl': 'Trudny - Brak wskazówek i losowe poziomy'
